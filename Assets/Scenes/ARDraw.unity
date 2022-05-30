@@ -836,21 +836,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineSettings: {fileID: 11400000, guid: 5ed25bc620945424487035b5188eac51, type: 2}
-  distanceFromCamera: 0.3
-  defaultMaterial: {fileID: 2100000, guid: 96e5ea0aeb55e488bb67155c0ccec1fe, type: 2}
-  cornerVertices: 10
-  endCapVertices: 10
-  allowSimplification: 0
-  tolerance: 0.001
-  applySimplifyAfterPoints: 20
-  minDistanceBeforeNewPoint: 0.001
   OnDraw:
     m_PersistentCalls:
       m_Calls: []
   anchorManager: {fileID: 1405077184}
   arCamera: {fileID: 1438120338}
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
-  lineWidth: 0.01
 --- !u!114 &1405077184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -912,7 +902,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  OnRetarted:
+  OnRestarted:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1405077183}
@@ -946,7 +936,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1405077186
 MonoBehaviour:
